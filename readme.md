@@ -69,3 +69,6 @@ let pessoa = {
 log.info("Dados da pessoa", pessoa)
 ```
 ![Resposta de objetos](./imgs/objetos.PNG)
+
+## Criado por
+[Leonardo Moreira - lvmasterrj](https://github.com/lvmasterrj)
