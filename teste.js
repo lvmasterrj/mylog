@@ -1,7 +1,23 @@
 const log = require("./index.js");
 
-log.error("Deu erro aqui!")
-log.info("Veja isso!")
-log.warning("Atenção!")
-log.ok("Tudo certo!")
-log.ok("")
+let pessoa = {
+	dadosPessoais: {
+		nome: "Leonardo",
+		idade: 35
+	},
+	endereco: {
+		rua: "Rua abcd",
+		bairro: "Centro"
+	},
+	filhos: {
+		Leticia: {
+			idade: 4,
+			sexo: "f",
+		},
+		Lucas: {
+			idade: 0,
+			sexo: "m"
+		}
+	}
+}
+log.info("Dados da pessoa", pessoa)
